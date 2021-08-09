@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D3AD6BF4-218E-4B5A-997B-1F6E3C4B5B60}|Default">
+  <MonoDevelop.Ide.ItemProperties.Herencia FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Herencia/Publicacion.cs">
+    <Files>
+      <File FileName="Herencia/Program.cs" Line="9" Column="13" />
+      <File FileName="Herencia/Publicacion.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Herencia" expanded="True">
+            <Node name="Herencia" expanded="True">
+              <Node name="Publicacion.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
