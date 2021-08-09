@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{D3AD6BF4-218E-4B5A-997B-1F6E3C4B5B60}|Default">
   <MonoDevelop.Ide.ItemProperties.Herencia PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Herencia/PublicacionImagen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Herencia/PublicacionVideo.cs">
     <Files>
-      <File FileName="Herencia/Program.cs" Line="13" Column="28" />
-      <File FileName="Herencia/Publicacion.cs" Line="58" Column="97" />
-      <File FileName="Herencia/PublicacionImagen.cs" Line="6" Column="9" />
+      <File FileName="Herencia/Program.cs" Line="14" Column="49" />
+      <File FileName="Herencia/PublicacionVideo.cs" Line="23" Column="38" />
+      <File FileName="Herencia/Publicacion.cs" Line="59" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Herencia" expanded="True">
             <Node name="Herencia" expanded="True">
-              <Node name="PublicacionImagen.cs" selected="True" />
+              <Node name="PublicacionVideo.cs" selected="True" />
             </Node>
           </Node>
         </State>
