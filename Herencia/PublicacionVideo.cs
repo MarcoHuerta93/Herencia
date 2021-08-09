@@ -42,14 +42,26 @@ namespace Herencia
 
         public void Play()
         {
-            Console.WriteLine("Reproduciendo");
-            reloj = new Timer(Reproduccion, null, 0, 1000);
+            if (!seReproduce)
+            {
+                seReproduce = true;
+                Console.WriteLine("Reproduciendo");
+                reloj = new Timer(Reproduccion, null, 0, 1000);
+            }
+            
         }
 
         public void Stop()
         {
+            if (seReproduce)
+            {
+                seReproduce = false;
+                Console.WriteLine("Detenido en {0}s", duracionActual);
+                duracionActual = 0;
+                reloj.Dispose();
+            }
 
-            Console.WriteLine("Detenido en {0}s", duracionActual);
+           
 
         }
 

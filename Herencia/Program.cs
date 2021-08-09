@@ -15,7 +15,10 @@ namespace Herencia
 
             PublicacionVideo video1 = new PublicacionVideo("Ufc highlights", "Marco Huerta", "https://ufctv.com/mexico", true, 23);
             Console.WriteLine(video1.ToString());
-            
+            video1.Play();
+            Console.WriteLine("Presione cualquier tecla para detener");
+            Console.ReadKey();
+            video1.Stop();
             Console.Read();
         }
     }
