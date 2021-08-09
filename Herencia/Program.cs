@@ -6,7 +6,11 @@ namespace Herencia
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Primer Objeto
+            Publicacion post1 = new Publicacion("Gracias por los saludos", true, "Antonio Huerta");
+
+            Console.WriteLine(post1.ToString());
+            Console.Read();
         }
     }
 }

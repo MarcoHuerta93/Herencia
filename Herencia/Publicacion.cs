@@ -20,10 +20,42 @@ namespace Herencia
 
         public Publicacion()
         {
-            ID = 0;
+            ID = CrearID();
             Titulo = "Mi primera publicación";
             EsPublico = true;
             Autor = "Marco Huerta";
+        }
+
+        //Constructor parametrizado
+
+        public Publicacion(string titulo, bool esPublico, string autor)
+        {
+            this.ID = CrearID();
+            this.Titulo = titulo;
+            this.EsPublico = esPublico;
+            this.Autor = autor;
+
+        }
+
+        //Método para crear ID
+
+        protected int CrearID()
+        {
+            return ++publicacionID;
+        }
+
+        //Método para editar publicacion
+
+        public void Editar(string titulo, bool esPublico)
+        {
+            this.Titulo = titulo;
+            this.EsPublico = esPublico;
+
+        }
+
+        public override string ToString()
+        {
+            return String.Format(" {0} - {1} - Creado por {2}", this.ID, this.Titulo, this.Autor);
         }
 
 

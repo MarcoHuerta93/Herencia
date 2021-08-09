@@ -1,0 +1,6 @@
+/Users/marcohuerta/Projects/Herencia/Herencia/bin/Debug/Herencia.exe
+/Users/marcohuerta/Projects/Herencia/Herencia/bin/Debug/Herencia.pdb
+/Users/marcohuerta/Projects/Herencia/Herencia/obj/Debug/Herencia.csproj.AssemblyReference.cache
+/Users/marcohuerta/Projects/Herencia/Herencia/obj/Debug/Herencia.csproj.CoreCompileInputs.cache
+/Users/marcohuerta/Projects/Herencia/Herencia/obj/Debug/Herencia.exe
+/Users/marcohuerta/Projects/Herencia/Herencia/obj/Debug/Herencia.pdb
